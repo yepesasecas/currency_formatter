@@ -43,8 +43,8 @@ defmodule CurrencyFormatter.Mixfile do
       {:earmark, ">= 0.0.0", only: :dev},
       {:ex_doc, ">= 0.0.0", only: :dev},
       {:excoveralls, ">= 0.0.0", only: :test},
-      {:phoenix_html, ">= 2.12.0"},
-      {:poison, "~> 3.1.0"},
+      {:phoenix_html, ">= 3.0.0"},
+      {:poison, "~> 5.0.0"},
     ]
   end
   defp package do
